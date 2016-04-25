@@ -1,19 +1,18 @@
 import java.util.Scanner;
 
 /**
- * 
  * Project : A Different Problem 
  * Date : 14 nov. 2015
  * @author : Didrik Lindqvist
+ * Kattis url : https://open.kattis.com/problems/different
  */
 public class dProb {
     public static void main(String[] args) {
-	new dProb();
-
+		new dProb();
     }
 
     dProb() {
-	scanStuff();
+		scanStuff();
     }
 
     private void scanStuff() {

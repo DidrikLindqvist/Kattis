@@ -1,5 +1,11 @@
 import java.util.Scanner;
-
+/**
+ * Project : Game2048
+ * Class   : Game2048.java
+ * Date    : ????. 2015 
+ * @author : Didrik Lindqvist
+ * Kattis url : https://open.kattis.com/problems/2048
+ */
 public class Game2048 {
 
     Node[][] board = new Node[4][4];
@@ -11,8 +17,8 @@ public class Game2048 {
     }
 
     Game2048() {
+	
 	readBoard();
-
 	runGame();
 	printBoard();
     }
@@ -24,11 +30,9 @@ public class Game2048 {
 		    switch (move) {
 		    case 0: // left(0)
 			moveLeft(i, j);
-
 			break;
 		    case 1: // up(1)
 			moveUp(i, j);
-
 			break;
 		    case 2: // right(2)
 			moveRight(i, j);

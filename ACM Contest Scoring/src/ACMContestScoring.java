@@ -16,7 +16,6 @@ public class ACMContestScoring {
 
     public static void main(String[] args) {
 	new ACMContestScoring();
-
     }
 
     public ACMContestScoring() {
